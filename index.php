@@ -11,5 +11,5 @@ $pokemons = [
 ];
 
 echo fight('Bulbizarre', 'Magicarpe', $pokemons);
-echo '<hr/>';
+echo '<h4>Bonus</h4>';
 echo win(['Bulbizarre', 'Chetiflor', 'Carapuce'], ['Salamèche','Stari'], $pokemons);

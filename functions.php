@@ -38,6 +38,7 @@ function type(string $namePokemon, array $pokemons) : string
     }
 }
 
+// Bonus 
 function win(array $team1, array $team2, array $pokemons)
 {   
     if(count($team1)>= count($team2)) {
